@@ -1,0 +1,32 @@
+{
+    "name": "mageinic/quickviewgraphql",
+    "description": "Quick View GraphQl It will Provide Backend configuration details.",
+    "require": {
+        "php": "^8.0",
+        "mageinic/core": "1.0.*",
+        "mageinic/quickview": "1.0.*",
+        "magento/module-graph-ql": "100.4.*",
+        "magento/module-catalog" : "104.0.*",
+        "magento/module-wishlist" : "101.2.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "Commercial"
+    ],
+    "authors": [
+        {
+            "name": "MageINIC",
+            "email": "support@mageinic.com",
+            "homepage": "https://www.mageinic.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageINIC\\QuickViewGraphQl\\": ""
+        }
+    }
+}

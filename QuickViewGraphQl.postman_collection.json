@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "c8d8bcb7-1615-4065-9376-b1dacdca260b",
+		"name": "QuickViewGraphQl",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "storeConfig",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "graphql",
+					"graphql": {
+						"query": "{\n    storeConfig {\n        quickview_enable,\n        quick_view_link_text,\n        additional_information,\n        show_related_product_block,\n        show_upsell_product_block,\n        show_checkout_button,\n        time_to_close_popup\n    }\n}",
+						"variables": ""
+					}
+				},
+				"url": {
+					"raw": "{{baseurl}}/graphql",
+					"host": [
+						"{{baseurl}}"
+					],
+					"path": [
+						"graphql"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

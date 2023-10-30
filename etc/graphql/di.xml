@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * MageINIC
+ * Copyright (C) 2023 MageINIC <support@mageinic.com>
+ *
+ * NOTICE OF LICENSE
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see http://opensource.org/licenses/gpl-3.0.html.
+ *
+ * Do not edit or add to this file if you wish to upgrade this extension to newer
+ * version in the future.
+ *
+ * @category MageINIC
+ * @package MageINIC_QuickViewGraphQl
+ * @copyright Copyright (c) 2023 MageINIC (https://www.mageinic.com/)
+ * @license http://opensource.org/licenses/gpl-3.0.html GNU General Public License,version 3 (GPL-3.0)
+ * @author MageINIC <support@mageinic.com>
+ */
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\StoreGraphQl\Model\Resolver\Store\StoreConfigDataProvider">
+        <arguments>
+            <argument name="extendedConfigData" xsi:type="array">
+                <item name="quickview_enable"
+                      xsi:type="string">quick_view/general/enable</item>
+                <item name="quick_view_link_text"
+                      xsi:type="string">quick_view/general/quick_view_link_text</item>
+                <item name="additional_information"
+                      xsi:type="string">quick_view/general/additional_information</item>
+                <item name="show_related_product_block"
+                      xsi:type="string">quick_view/general/show_related_product_block</item>
+                <item name="show_upsell_product_block"
+                      xsi:type="string">quick_view/general/show_upsell_product_block</item>
+                <item name="show_checkout_button"
+                      xsi:type="string">quick_view/general/show_checkout_button</item>
+                <item name="time_to_close_popup"
+                      xsi:type="string">quick_view/general/time_to_close_popup</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
