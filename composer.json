@@ -1,6 +1,6 @@
 {
     "name": "mageinic/quickviewgraphql",
-    "description": "Quick View GraphQl It will Provide Backend configuration details.",
+    "description": "Quick View GraphQL is a part of MageINIC Quick View extension that adds GraphQL features. This extension extends Quick View definitions.",
     "require": {
         "php": "^8.0",
         "mageinic/core": "1.0.*",
@@ -12,7 +12,8 @@
     "type": "magento2-module",
     "version": "1.0.0",
     "license": [
-        "Commercial"
+        "OSL-3.0",
+        "AFL-3.0"
     ],
     "authors": [
         {
