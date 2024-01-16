@@ -7,7 +7,7 @@
 Run the following command in Magento 2 root folder:
 
 ```
-composer require mageinic/quickviewgraphql
+composer require mageinic/quick-view-graphql
 
 php bin/magento maintenance:enable
 php bin/magento setup:upgrade
@@ -22,7 +22,7 @@ Magento 2 Quick View GraphQL requires installing [MageINIC Quick View](https://g
 
 **Or Install via composer [Recommend]**
 ```
-composer require mageinic/quickview
+composer require mageinic/quick-view
 ```
 
 ## 2. How to use
